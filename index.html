@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mama's Kitchen — Best Jollof in Lokoja</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  .hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=1200') center/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 40px 20px;
+  }
+
+  .hero-content { max-width: 700px; }
+
+  .hero h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+
+  .hero .tagline {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    padding: 16px 40px;
+    background: #e11d48;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 10px 30px rgba(225, 29, 72, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .cta-btn:hover {
+    background: #be123c;
+    transform: translateY(-3px);
+  }
+
+  .features {
+    padding: 80px 20px;
+    background: #fef3f3;
+    text-align: center;
+  }
+
+  .features h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .feature-card {
+fr    background: #fff;
+    padding: ));
+35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  }
+
+  .feature-card .icon { font-size: 40px; margin-bottom: 15px; }
+  .feature-card h3 { font-size: 18px; margin-bottom: 10px; color: #e11d48; }
+  .feature-card p { color: #666; font-size: 14px; }
+
+  .menu { padding: 80px 20px; text-align: center; }
+  .menu h2 { font-size: 32px; margin-bottom: 50px; }
+
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .menu-item {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    padding: 25px;
+    text-align: left;
+  }
+
+  .menu-item h4 { font-size: 17px; margin-bottom: 8px; }
+  .menu-item .price { color: #e11d48; font-weight: 700; font-size: 18px; }
+  .menu-item p { color: #666; font-size: 14px; margin-top: 8px; }
+
+  .final-cta {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #e11d48, #be123c);
+    color: #fff;
+    text-align: center;
+  }
+
+  .final-cta h2 { font-size: 32px; margin-bottom: 15px; }
+  .final-cta p { font-size: 17px; margin-bottom: 30px; }
+
+  .whatsapp-btn {
+    display: inline-block;
+    padding: 16px 40px;
+    background: #25D366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  footer {
+    background: #1a1a1a;
+    color: #999;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 13px;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 30px; }
+    .features h2, .menu h2, .final-cta h2 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Best Jollof Rice in Lokoja</h1>
+      <p class="tagline">Fresh, hot, homemade meals delivered to your door in 30 minutes</p>
+      <a href="https://wa.me/2348000000000?text=Hi%20Mama's%20Kitchen,%20I%20want%20to%20place%20an%20order" class="cta-btn">Order Now on WhatsApp</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose Mama's Kitchen?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon">🔥</div>
+        <h3>Cooked Fresh Daily</h3>
+        <p>Every meal is prepared the moment you order. No leftovers, no reheating.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🚴</div>
+        <h3>Fast Delivery</h3>
+        <p>Hot meals at your door within 30 minutes across Lokoja.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">💯</div>
+        <h3>100% Homemade</h3>
+        <p>Real Nigerian recipes made with love and quality ingredients.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu">
+    <h2>Our Popular Dishes</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h4>Jollof Rice & Chicken</h4>
+        <span class="price">₦2,500</span>
+        <p>Smoky party jollof with grilled chicken and fried plantain</p>
+      </div>
+      <div class="menu-item">
+        <h4>Egusi Soup & Pounded Yam</h4>
+        <span class="price">₦3,000</span>
+        <p>Rich egusi soup with assorted meat and fresh pounded yam</p>
+      </div>
+      <div class="menu-item">
+        <h4>Fried Rice & Turkey</h4>
+        <span class="price">₦3,200</span>
+        <p>Colorful fried rice with peppered turkey and coleslaw</p>
+      </div>
+      <div class="menu-item">
+        <h4>Pepper Soup (Catfish)</h4>
+        <span class="price">₦2,800</span>
+        <p>Spicy catfish pepper soup — perfect for the evening</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Hungry Already?</h2>
+    <p>Message us on WhatsApp and get your food delivered hot in 30 minutes</p>
+    <a href="https://wa.me/2348000000000?text=Hi%20Mama's%20Kitchen,%20I%20want%20to%20place%20an%20order" class="whatsapp-btn">Order on WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Mama's Kitchen · Lokoja, Kogi State · All rights reserved</p>
+  </footer>
+
+</body>
+</html>
